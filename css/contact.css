@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(26, 24, 24);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.Roldan{
+    position: absolute;
+    color: rgb(158, 28, 28);
+    margin-left: 50px;
+    margin-top: -110px;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.buttons{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    margin-left: 100px;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: -115px;
+}
+
+.main-buttons{
+    background-color: rgb(158, 28, 28);
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main-buttons:hover,
+.fb:hover{
+    opacity: 0.8;
+}
+
+.main-buttons:active,
+.fb:active{
+    opacity: 0.5;
+}
+
+.main{
+    width: 500px;
+    height: 500px;
+    margin: 150px 0 0 85px;
+}
+
+.input,
+.input-2{
+    width: 400px;
+    margin: 8px 0 30px 0;
+    padding: 8px;
+}
+
+.input-2{
+    padding-bottom: 100px;
+}
+
+.first-button{
+    display: block;
+    width: 420px;
+    padding: 7px;
+    background-color: transparent;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+}
+
+.right-div{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    right: 120px;
+    top: 150px;
+}
+
+.fb{
+    height: 40px;
+    margin: 15px 15px 0 0;
+
+}
+
+.pic-1,
+.pic-2{
+    display: inline-block;
+}
+
+.contact-details{
+    margin: 25px 0 15px 0;
+}
+
+.under-contact-details{
+    color: gray;
+    margin-top: 10px;
+}
+
+.socmed{
+    margin-top: 30px;
+}
